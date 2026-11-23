@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JB Express Logistics & Mobility - Prodotti e Servizi</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #444; background-color: #f4f4f4; line-height: 1.6; }
+        #page-wrapper { display: flex; flex-direction: column; min-height: 100vh; }
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+        
+        /* Header & Nav */
+        #header-wrapper { background-color: #2c3e50; padding: 30px 0; text-align: center; color: white; border-bottom: 5px solid #e74c3c; }
+        #logo { color: #ffffff; text-decoration: none; font-size: 2.5em; font-weight: bold; letter-spacing: 1px; }
+        #nav { margin-top: 20px; }
+        #nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px; margin: 0; flex-wrap: wrap; }
+        #nav li a { color: #ecf0f1; text-decoration: none; font-weight: bold; padding: 10px 20px; border-radius: 5px; transition: background 0.3s; display: inline-block; }
+        #nav li a:hover, #nav li.current_page_item a { background-color: #e74c3c; color: white; }
+
+        /* Main Content */
+        #main-wrapper { padding: 50px 0; flex: 1; background-color: #ffffff; }
+        .row { display: flex; flex-wrap: wrap; gap: 30px; }
+        .col-6 { flex: 1; min-width: 300px; }
+        .col-12 { flex: 100%; }
+        
+        h2 { color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px; margin-top: 0; }
+        h3 { color: #2980b9; margin-bottom: 5px; }
+        .box { background: #f9f9f9; padding: 25px; border-radius: 8px; border: 1px solid #eee; height: 100%; box-sizing: border-box; }
+        ul.custom-list { list-style-type: square; padding-left: 20px; }
+        ul.custom-list li { margin-bottom: 10px; }
+
+        /* Footer */
+        #footer-wrapper { background-color: #1a252f; color: #bdc3c7; padding: 40px 0 20px; }
+        #footer-wrapper h2 { color: #ffffff; border-bottom: 1px solid #34495e; padding-bottom: 10px; }
+        #copyright { text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #2c3e50; font-size: 0.9em; }
+    </style>
+</head>
+<body class="no-sidebar">
+    <div id="page-wrapper">
+
+        <!-- Header Wrapper -->
+        <div id="header-wrapper">
+            <div class="container">
+                <header id="header">
+                    <div class="inner">
+                        <h1><a href="index.html" id="logo">JB Express Logistics</a></h1>
+                        <nav id="nav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="chi-siamo.html">Chi Siamo</a></li>
+                                <li class="current_page_item"><a href="servizi.html">Prodotti e Servizi</a></li>
+                                <li><a href="contatti.html">Contatti</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <!-- Main Wrapper -->
+        <div id="main-wrapper">
+            <div class="container">
+                <header class="major" style="text-align: center; margin-bottom: 40px;">
+                    <h2>I Nostri Servizi</h2>
+                    <p style="font-size: 1.2em; color: #7f8c8d;">Scopri tutte le nostre soluzioni per il trasporto di persone e merci.</p>
+                </header>
+
+                <div class="row">
+                    <div class="col-6">
+                        <article class="box">
+                            <h3>1. Gite Scolastiche & Viaggi d'Istruzione</h3>
+                            <p>Servizio completo di trasporto per scuole con pullman Gran Turismo certificati e conformi a tutte le normative di sicurezza.</p>
+                            <ul class="custom-list">
+                                <li>Dedicato a istituti scolastici di ogni ordine e grado (pubblici e privati).</li>
+                                <li>Massima sicurezza e rispetto delle normative.</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-6">
+                        <article class="box">
+                            <h3>2. Linee Interurbane & Noleggio Privati</h3>
+                            <p>Collegamenti di linea regolari e programmati per unire diverse città italiane in totale puntualità.</p>
+                            <ul class="custom-list">
+                                <li>Servizi di linea per singoli cittadini e famiglie.</li>
+                                <li>Noleggio pullman e minivan per agenzie e gruppi.</li>
+                                <li>Servizi NCC e VIP con autovetture di rappresentanza.</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-6">
+                        <article class="box">
+                            <h3>3. Trasporto Merci & Spedizioni Espresse</h3>
+                            <p>Gestione di spedizioni espresse e trasporti nazionali per aziende e privati con sistema avanzato di monitoraggio GPS.</p>
+                            <ul class="custom-list">
+                                <li>Dedicato a PMI, industrie ed e-commerce.</li>
+                                <li>Tempi di consegna certi per le merci.</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-6">
+                        <article class="box">
+                            <h3>4. Servizi di Logistica per Fiere ed Eventi</h3>
+                            <p>Servizio combinato per il trasporto del personale o dei partecipanti e il contestuale trasferimento delle merci e degli allestimenti in tutta Italia.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Wrapper -->
+        <div id="footer-wrapper">
+            <footer id="footer" class="container">
+                <div class="row">
+                    <div class="col-12" style="text-align: center;">
+                        <h2>JB Express Logistics & Mobility</h2>
+                        <p>Via Reggiana 89, Prato | Tel: 0574 37142</p>
+                    </div>
+                </div>
+                <div id="copyright">
+                    &copy; 2024 JB Express Logistics & Mobility. Tutti i diritti riservati.
+                </div>
+            </footer>
+        </div>
+
+    </div>
+</body>
+</html>
